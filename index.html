@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #image{
+            display:none;
+            padding: 60px;
+        }
+    </style>
+</head>
+
+
+<body style="background-color:cornflowerblue">
+    <div>
+        <h1>Who are you ! Click to get your answer now</h1>
+        
+        <h6>Creation by SJ</h6>
+
+
+       
+
+        <img id="image" src="https://i.pinimg.com/originals/bf/a5/3b/bfa53b2488eb224410ac1edfbecb2a34.png" alt="GFG image" height="400" width="400" />
+
+
+
+    </div>
+
+    <button type = "button"
+    onclick="show()" id="btnID">Show who your are!!</button>
+
+
+    <script>
+        function show()
+        {
+            document.getElementById('image').style.display="block";
+
+            document.getElementById('btnID').style.display="none";
+        }
+    </script>
+</body>
+
+</html>
